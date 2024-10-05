@@ -1,0 +1,11 @@
+{
+    "name": "aloy-vm",
+    "description": "Ubuntu Virtual Machine",
+    "start_message": "start aloy",
+    "stop_message": "stop aloy",
+    "can_be_stopped": true,
+    "start_command": "{MULTILAUNCHER_SCRIPTS_DIR}/proxmox/vm-manager.sh proxmox-server 106 start",
+    "stop_command": "{MULTILAUNCHER_SCRIPTS_DIR}/proxmox/vm-manager.sh proxmox 106 stop",
+    "multiple_instances": false,
+    "enabled": true
+}

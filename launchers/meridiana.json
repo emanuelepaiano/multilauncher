@@ -1,0 +1,11 @@
+{
+    "name": "meridiana",
+    "description": "Wakeup On Lan Meridiana node",
+    "start_message": "start meridiana",
+    "stop_message": "",
+    "can_be_stopped": false,
+    "start_command": "etherwake -i wlan0 FF:FF:FF:FF:FF:FF",
+    "stop_command": "",
+    "multiple_instances": true,
+    "enabled": true
+}
